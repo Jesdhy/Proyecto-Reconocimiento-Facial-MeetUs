@@ -6,14 +6,37 @@
     <title>MEETUS ❣ </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <link rel="stylesheet" href="{{ url_for('static', filename = '/content/bootstrap.min1.css')}}" />
     <link rel="stylesheet" href="{{ url_for('static', filename = '/content/fontAwesome.css')}}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename = '/content/templatemo-main.css')}}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename = '/content/templatemo-main.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = '/content/style.css')}}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = '/content/style.min.css')}}" />
 </head>
 
 
 <body>
+    <!-- menu -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index1.html" class="navbar-brand px-lg-4 m-0">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="{{ url_for('pagina') }}"  class="nav-item nav-link">Página del gobierno</a>
+                    <div class="nav-item dropdown">
+                    </div>
+                    <a href="{{ url_for('contacto') }}"  class="nav-item nav-link">Sobre Nosotr@s</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- menu -->
+
     <div class="parallax-content baner-content" id="home">
         <div class="container">
             <div class="first-content">

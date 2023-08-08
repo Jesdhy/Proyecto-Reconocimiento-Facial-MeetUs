@@ -28,6 +28,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DETECCION_ROSTROS\capturandoRostros %281%29.py" />
     <Compile Include="DETECCION_ROSTROS\pagina1.py" />
     <Compile Include="runserver.py" />
     <Compile Include="DETECCION_ROSTROS\__init__.py" />
@@ -49,13 +50,15 @@
     <Content Include="DETECCION_ROSTROS\static\content\fontAwesome.css" />
     <Content Include="DETECCION_ROSTROS\static\content\img\1st-section.JPG" />
     <Content Include="DETECCION_ROSTROS\static\content\img\2nd-section.JPG" />
-    <Content Include="DETECCION_ROSTROS\static\content\img\close.png" />
-    <Content Include="DETECCION_ROSTROS\static\content\img\loading.gif" />
-    <Content Include="DETECCION_ROSTROS\static\content\img\next.png" />
-    <Content Include="DETECCION_ROSTROS\static\content\img\prev.png" />
+    <Content Include="DETECCION_ROSTROS\static\content\img\Dayanara.JPG" />
+    <Content Include="DETECCION_ROSTROS\static\content\img\Jesica.JPG" />
+    <Content Include="DETECCION_ROSTROS\static\content\img\Leonardo.JPG" />
+    <Content Include="DETECCION_ROSTROS\static\content\img\LogoPresidencia.JPG" />
+    <Content Include="DETECCION_ROSTROS\static\content\img\Marlon.JPG" />
     <Content Include="DETECCION_ROSTROS\static\content\inicio.css" />
     <Content Include="DETECCION_ROSTROS\static\content\templatemo-main.css" />
     <Content Include="DETECCION_ROSTROS\templates\index1.html" />
+    <Content Include="DETECCION_ROSTROS\templates\menu.html" />
     <Content Include="requirements.txt" />
     <Content Include="DETECCION_ROSTROS\static\content\bootstrap.css" />
     <Content Include="DETECCION_ROSTROS\static\content\bootstrap.min.css" />
